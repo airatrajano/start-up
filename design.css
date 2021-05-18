@@ -1,0 +1,44 @@
+body{
+    background-color: palevioletred;
+   
+}
+h1:hover{
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 100;
+}
+.btn{
+    color: palevioletred;
+    border-radius: 300px;
+    
+    box-shadow: 4px 4px 4px #131212;
+}
+.btn:hover{
+    color: black;
+    background-color: palevioletred;
+    border-radius: 300px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 4px 4px 4px #131212;
+}
+.btn-xl{
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+form{
+    border: 5px solid;
+    padding: 20px;
+    line-height: 30px;
+    box-shadow: 4px 4px 4px #888888;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
